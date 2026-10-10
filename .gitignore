@@ -1,0 +1,17 @@
+# PlatformIO
+.pio/
+.vscode/
+.vscode-oss/
+
+# local photos / captures (not part of firmware)
+*.jpg
+*.jpeg
+*.png
+*.bmp
+# ...except curated screenshots
+!photos/*.jpg
+
+# build artifacts
+*.bin
+*.elf
+*.map
